@@ -19,6 +19,8 @@ Dok: https://github.com/meteor/meteor/wiki/Meteor-Cordova-Phonegap-integration
 Build apk
 =========
 
+  meteor add-platform android
+
   meteor deploy todosarea.meteor.com
   meteor build builds --server=todosarea.meteor.com
 
