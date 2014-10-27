@@ -88,6 +88,7 @@ Template.appBody.helpers({
 
             if ((!Meteor.status().connected) && _.isNull(reconnectInterval)) {
                 // TODO: find better solution
+                // http://docs.meteor.com/#meteor_status
                 reconnectInterval = setInterval(function () {
                     Meteor.reconnect();
 
